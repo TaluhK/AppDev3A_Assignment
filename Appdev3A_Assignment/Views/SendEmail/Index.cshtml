@@ -1,0 +1,127 @@
+﻿@*@{
+        ViewBag.Title = "Send Student Details";
+    }
+
+    <h2>Index2</h2>
+
+    <div class="form-group">
+        <label>Attachment</label>
+        <div class="row1">
+            <input name="fileUploader" type="file" />
+        </div>
+    </div>*@
+
+@model Appdev3A_Assignment.Models.SendEmail
+
+@{
+
+    ViewBag.Title = "Index";
+
+}
+
+@*<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+            if ('@ViewBag.Message' == 'Sent') {
+
+                alert('Mail has been sent successfully');
+
+            }
+
+        });
+
+    </script>
+
+    <h2>Index</h2>*@
+
+<fieldset>
+
+    <legend>
+        Send Email
+
+    </legend>
+
+    @using (@Html.BeginForm("Index", "SendEmail", FormMethod.Post, new { @id = "form1", @enctype = "multipart/form-data" }))
+
+    {
+
+        @Html.ValidationSummary()
+
+
+       
+
+        <table class="glyphicon-align-center">
+
+            <tr>
+
+                <td>
+                    To:
+
+                </td>
+
+                <td>
+
+                    @Html.TextBoxFor(m => m.To)
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+                    Subject:
+
+                </td>
+
+                <td>
+
+                    @Html.TextBoxFor(m => m.Subject)
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+                    Attachment
+
+                </td>
+
+                <td>
+
+                    <input name="fileUploader" type="file" />
+
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td>
+                    Body:
+
+                </td>
+
+                <td>
+
+                    @Html.TextAreaFor(m => m.Body)
+
+                </td>
+
+            </tr>
+
+        </table>
+
+        <input type="submit" value="Send" />
+
+    }
+
+</fieldset>
+
+
+

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appdev3A_Assignment", "Appdev3A_Assignment\Appdev3A_Assignment.csproj", "{BDA8ADB8-312E-46F5-9C35-4E372BB5A104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appdev3A_Assignment.Tests", "Appdev3A_Assignment.Tests\Appdev3A_Assignment.Tests.csproj", "{67BB09D2-C36D-47AB-B255-CA067B2638FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDA8ADB8-312E-46F5-9C35-4E372BB5A104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA8ADB8-312E-46F5-9C35-4E372BB5A104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA8ADB8-312E-46F5-9C35-4E372BB5A104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA8ADB8-312E-46F5-9C35-4E372BB5A104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67BB09D2-C36D-47AB-B255-CA067B2638FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BB09D2-C36D-47AB-B255-CA067B2638FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BB09D2-C36D-47AB-B255-CA067B2638FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BB09D2-C36D-47AB-B255-CA067B2638FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
